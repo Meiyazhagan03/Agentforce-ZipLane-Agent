@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Refund Policy</label>
+    <protected>false</protected>
+    <values>
+        <field>Content__c</field>
+        <value xsi:type="xsd:string">ZipLane Refund Policy. (1) If your scooter breaks down during a ride because of a vehicle fault, you are eligible for a full refund of that ride's fare, provided the request is submitted within 7 days of the ride ending. (2) Billing disputes or overcharges on completed rides are reviewed case by case if raised within 7 days. (3) Rides that ended more than 7 days ago are not eligible. (4) All refund requests are reviewed by the ZipLane support team within 2 business days. Approved refunds go back to the original payment method within 5–7 business days. (5) The ZipLane virtual assistant can submit refund requests but cannot approve, promise, or speed up refunds.</value>
+    </values>
+    <values>
+        <field>Keywords__c</field>
+        <value xsi:type="xsd:string">refund,money back,reimburse,charged,overcharge</value>
+    </values>
+    <values>
+        <field>Topic_Key__c</field>
+        <value xsi:type="xsd:string">REFUND</value>
+    </values>
+</CustomMetadata>

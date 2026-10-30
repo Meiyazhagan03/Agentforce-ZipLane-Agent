@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Breakdown &amp; Safety</label>
+    <protected>false</protected>
+    <values>
+        <field>Content__c</field>
+        <value xsi:type="xsd:string">ZipLane Breakdown &amp; Safety. If you are injured or in danger, move to a safe spot and call 112 (India emergency number) first. Do not attempt to repair the scooter. Report the breakdown with your booking number and location. Billing stops as soon as the breakdown is reported, and a field team member collects the scooter. You can unlock a different scooter nearby to continue your trip.</value>
+    </values>
+    <values>
+        <field>Keywords__c</field>
+        <value xsi:type="xsd:string">breakdown,broke,stopped,battery,flat,brake,accident,safety,stuck</value>
+    </values>
+    <values>
+        <field>Topic_Key__c</field>
+        <value xsi:type="xsd:string">BREAKDOWN</value>
+    </values>
+</CustomMetadata>

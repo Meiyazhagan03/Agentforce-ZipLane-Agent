@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rider__c</fullName>
+    <label>Rider</label>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Ride_Bookings</relationshipLabel>
+    <relationshipName>Ride_Bookings</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>

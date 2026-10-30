@@ -1,0 +1,14 @@
+{
+  "required" : [ "policyTopic" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "policyTopic" : {
+      "title" : "Policy Topic",
+      "description" : "Topic or question in natural language, for example refund or how much does it cost.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Damage &amp; Parking Fees</label>
+    <protected>false</protected>
+    <values>
+        <field>Content__c</field>
+        <value xsi:type="xsd:string">ZipLane Damage &amp; Parking. Riders are not charged for normal wear. Damage caused by misuse is assessed by the field team, and riders are notified before any charge. Out-of-zone parking adds a ₹50 fee. Fees can be disputed within 7 days.</value>
+    </values>
+    <values>
+        <field>Keywords__c</field>
+        <value xsi:type="xsd:string">damage,scratch,parking fee,late,fine,penalty</value>
+    </values>
+    <values>
+        <field>Topic_Key__c</field>
+        <value xsi:type="xsd:string">DAMAGE</value>
+    </values>
+</CustomMetadata>

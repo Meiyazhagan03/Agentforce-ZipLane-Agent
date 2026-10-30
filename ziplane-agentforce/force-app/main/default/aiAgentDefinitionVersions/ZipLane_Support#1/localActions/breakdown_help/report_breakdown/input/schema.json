@@ -1,0 +1,42 @@
+{
+  "required" : [ "bookingNumber", "riderEmail", "issueType", "locationDescription", "isRiderSafe" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "bookingNumber" : {
+      "title" : "Booking Number",
+      "description" : "Booking number of the active ride.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "isRiderSafe" : {
+      "title" : "Is Rider Safe",
+      "description" : "False if the rider is injured or in danger, true otherwise.",
+      "lightning:type" : "lightning__booleanType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "issueType" : {
+      "title" : "Issue Type",
+      "description" : "One of: Battery Dead, Flat Tyre, Brake Issue, App Lock Issue, Accident, Other.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "locationDescription" : {
+      "title" : "Location Description",
+      "description" : "Where the rider and scooter are now, in the rider's words.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "riderEmail" : {
+      "title" : "Rider Email",
+      "description" : "Email address on the rider's ZipLane account.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>ZL Zones</masterLabel>
+    <sorted>false</sorted>
+    <customValue><fullName>Koramangala</fullName><default>false</default><label>Koramangala</label></customValue>
+    <customValue><fullName>Indiranagar</fullName><default>false</default><label>Indiranagar</label></customValue>
+    <customValue><fullName>HSR Layout</fullName><default>false</default><label>HSR Layout</label></customValue>
+    <customValue><fullName>Whitefield</fullName><default>false</default><label>Whitefield</label></customValue>
+    <customValue><fullName>Jayanagar</fullName><default>false</default><label>Jayanagar</label></customValue>
+    <customValue><fullName>MG Road</fullName><default>false</default><label>MG Road</label></customValue>
+</GlobalValueSet>

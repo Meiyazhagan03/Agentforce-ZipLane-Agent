@@ -1,0 +1,21 @@
+{
+  "required" : [ "bookingNumber", "riderEmail" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "bookingNumber" : {
+      "title" : "Booking Number",
+      "description" : "Booking number the rider gives, for example BK-1001.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "riderEmail" : {
+      "title" : "Rider Email",
+      "description" : "Email address on the rider's ZipLane account.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
